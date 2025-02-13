@@ -2,7 +2,7 @@
 <a href="https://roadmap.sh/projects/portfolio-website">Link to the Project</a>
 
 ## Overview 
-The task was to use CSS to style the previously created portfolio website. It was focused on creating a responsive layout, and learning the proper use CSS of techniques. I learned how to properly use media queries to create a responsive website that works and looks correctly on all devices. I also learned new styling techniques, like how to customize the input text field, or add moving borders to elements.
+The task was to use CSS to style the previously created portfolio website. It was focused on creating a responsive layout, and learning the proper use of CSS techniques. I learned how to properly use media queries to create a responsive website that works and looks correctly on all devices. I also learned new styling techniques, like how to customize the input text field, or add moving borders to elements.
 
 ## Submission Checklist
 - [x] A fully styled, responsive website with the same structure as the previous project.
