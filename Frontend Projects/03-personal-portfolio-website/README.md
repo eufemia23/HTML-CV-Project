@@ -16,5 +16,5 @@ The task was to use CSS to style the previously created portfolio website. It wa
 - [ ] Add support for dark mode using CSS variables.
 
 ## How to run the project
-Clone or download the files in 03-personal-portfolio-website.
-Open the index.html file in your web browser.
+1. Clone or download the files in 03-personal-portfolio-website.
+2. Open the index.html file in your web browser.
