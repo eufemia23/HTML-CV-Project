@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(200, 123, 166);
+  background-color: rgb(34, 28, 28);
+  height: 1200px;
+  font-weight: 300;
+}
+
+header {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav {
+  float: right;
+}
+
+aside {
+  display: inline;
+}
+
+header p {
+  font-size: 19px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:link, a:visited {
+  color: rgb(200, 123, 166);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 113, 194);
+}
+
+main a:link, main a:visited {
+  color: rgb(216, 190, 205);
+}
+
+main a:hover {
+  color: rgb(255, 255, 255);
+}
+
+header section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+h1 {
+  margin-top: 80px;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 1000;
+}
+
+h2 {
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+
+.project {
+  margin: 20px;
+  padding: 10px 20px;
+  width: 250px;
+  position: relative;
+  background-color: rgb(34, 28, 28);
+  border-radius: 10px;
+}
+
+
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.project::after, .project::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: conic-gradient(from var(--angle), rgb(224, 73, 169), rgb(102, 149, 106), rgb(224, 73, 169));
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 3px;
+  animation: 3s spin linear infinite;
+  border-radius: 10px;
+}
+
+.project::before{
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
+
+
+
+
+.description {
+  margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+  header {
+    padding-top: 30px;
+  }
+  
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  aside {
+    text-align: center;
+    display: block;
+  }
+  
+  aside img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  header section {
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+}

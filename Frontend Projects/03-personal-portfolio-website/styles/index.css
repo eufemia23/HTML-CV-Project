@@ -1,0 +1,362 @@
+/* set margin and padding to 0 */
+* {
+  margin: 0;
+  padding: 0;
+} 
+/* set font, size, color to the body */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(200, 123, 166);
+  background-color: rgb(34, 28, 28);
+  height: 1200px;
+  font-weight: 300;
+}
+
+
+
+/* sets padding to header elements */
+header {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* nav bar floats to the right */
+nav {
+  float: right;
+}
+/* name and nav bar display inline */
+aside {
+  display: inline;
+}
+/* name displays inline to icon, name size, margin between / */
+header p {
+  font-size: 19px;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+/* set color to nav bar links */
+a:link, a:visited {
+  color: rgb(200, 123, 166);
+  text-decoration: none;
+}
+/* set color to nav bar links while hovering */
+a:hover {
+  color: rgb(255, 113, 194);
+}
+/* set color to main links */
+.work-experience a:link, .work-experience a:visited {
+  color: rgb(216, 190, 205);
+}
+/* set color to main links while hovering */
+.work-experience a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+
+/* title and subtitle section: aligns to the center and adds margin*/
+header section {
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* headers */
+h1 {
+  margin-top: 80px;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 1000;
+}
+h2 {
+  font-weight: 1000;
+}
+h3 {
+  font-weight: 900;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+
+/* sets the 3 table columns to flex and adds border on top and bottom */
+.main-section {
+  display: flex;
+  border-top: solid;
+  border-bottom: solid;
+}
+
+
+
+/* sets projects column to take up less width, adds right border */
+.projects {
+  padding-top: 15px;
+  border-right: solid;
+  width: 25%;
+  min-width: 168px;
+}
+/* work experience column: adds right border, padding on left & bottom */
+.work-experience {
+  padding-top: 15px;
+  border-right: solid;
+  width: 40%;
+  min-width: 268px;
+}
+/* education column: adds padding to left */
+.education {
+  padding-left: 35px;
+  width: 35%;
+  padding-right: 20px;
+}
+/* list is displayed inline with text */
+ul {
+  padding-left: 20px;
+}
+
+
+
+/* adds padding to projects title */
+.projects h2 {
+  padding-left: 35px;
+  padding-bottom: 5px;
+}
+/* adds padding to text left */
+.projects p {
+  padding: 10px 20px 10px 35px;
+}
+/* adds borders between projects */
+.project1, .project2, .project3 {
+  border-bottom: solid;
+}
+
+
+
+/* adds padding to work experience section's title */
+.work-experience h2 {
+  padding-left: 35px;
+  padding-bottom: 15px;
+}
+/* adds border to work experience 1 and padding left & right */
+.experience-section-1 {
+  border-bottom: solid;
+  padding: 0px 20px 20px 35px;
+}
+/* adds padding left to work experience 2 */
+.experience-section-2 {
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* adds padding to bottom of description text */
+.work-experience p {
+  padding-bottom: 10px;
+}
+
+
+
+/* adds padding */
+.education h2 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+
+/* changes review title */
+.reviews-title {
+  margin: 30px;
+ }
+/* reviews are display flex and have padding on edges */
+.reviews {
+  display: flex;
+  padding: 0px 20px;
+}
+/* individual reviews */
+article {
+  border-style: solid;
+  border-radius: 40px;
+  max-width: 182px;
+  margin: auto;
+  padding: 20px 25px;
+}
+/* reviews have min margin */
+.review1, .review2 {
+  margin-right: 30px;
+}
+/* teacher signature color and margin */
+.teacher-name {
+  color: rgb(144, 105, 128);
+  margin-top: 15px;
+}
+.teacher-title {
+  color: rgb(144, 105, 128);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  /* main section is displayed in blocks */
+  .main-section {
+    display: block;
+  }
+
+
+
+  /* projects: no right border and sets width to 100% */
+  .projects {
+    border: none;
+    width: 100%;
+    text-align: center;
+  }
+  /* adds padding and border to projects title */
+  .projects h2 {
+    padding: 0px 0px 13px 0px;
+    border-bottom: solid;
+  }
+  /* adds padding to individual projects */
+  .projects p {
+    padding: 8px 0px;
+  }
+  /* adds borders between projects */
+  .project1, .project2, .project3, .project4 {
+    border-bottom: solid;
+  }
+
+  
+
+  /* work experience column: adds right border, padding on left & bottom */
+  .work-experience {
+    border: none;
+    width: 100%;
+  }
+  /* adds padding to work experience section title left */
+  .work-experience h2 {
+    padding: 0px 0px 13px 0px;
+    text-align: center;
+    border-bottom: solid;
+  }
+  /* adds border to work experience 1 and padding left & right */
+  .experience-section-1 {
+    border-bottom: solid;
+    padding: 20px 0px 20px 25px;
+  }
+  /* adds padding left to work experience 2 */
+  .experience-section-2 {
+    border-bottom: solid;
+    padding: 20px 0px 20px 25px;
+  }
+
+
+
+  /* education column: adds padding to left */
+  .education {
+    padding: 0px;
+    width: 100%;
+  }
+  /* edits education title */
+  .education h2 {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    border-bottom: solid;
+  }
+  /* edits education section */
+  .education-section {
+    padding: 20px;
+  }
+
+
+
+  /* changes reviews title */
+  .reviews-title {
+    margin: 30px;
+    
+  }
+  /* individual reviews styling */
+  article {
+    border-style: solid;
+    border-radius: 40px;
+    max-width: 530px;
+    padding: 20px 25px;
+  }
+  /* individual reviews styling */
+  .review1, .review2, .review3 {
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  /* reviews are display block and have padding on edges */
+  .reviews {
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  /* increases top padding */
+  header {
+    padding-top: 30px;
+  }
+  /* nav bar is centered, nav bar top margin */
+  nav {
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+  /* icon and name are centered */
+  aside {
+    text-align: center;
+    display: block;
+  }
+  /* icon is centered */
+  aside img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  /* edits name */
+  .name {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+
+
+  /* title and subtitle section: aligns to the center and adds margin*/
+  header section {
+    margin-bottom: 50px;
+  }
+  /* edits header */
+  h1 {
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  
+
+  /* aligns review title and reviews to left */
+  .reviews-title, article {
+    text-align: left;
+  }
+}
