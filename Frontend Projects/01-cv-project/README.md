@@ -18,7 +18,7 @@ The task was to create a single-page CV using HTML with focus on correct usage o
 - [x] A favicon linked in the head section.
 
 ## How to run the project
-Clone or download the files in 01-cv-project.
-Open the index.html file in your web browser.
+1. Clone or download the files in 01-cv-project.
+2. Open the index.html file in your web browser.
 
 
