@@ -11,5 +11,5 @@ The task was to create an HTML only website with multiple pages with focus on co
 - [x] Contact page should have a form with fields like name, email, message etc.
 
 ## How to run the project
-Clone or download the files in 02-basic-html-website-project.
-Open the index.html file in your web browser.
+1. Clone or download the files in 02-basic-html-website-project.
+2. Open the index.html file in your web browser.
