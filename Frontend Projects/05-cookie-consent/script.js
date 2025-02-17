@@ -1,4 +1,4 @@
-const cookiePopup = document.querySelector('.js-container')
+const cookiePopup = document.querySelector('.js-container');
 localStorage.getItem('cookies');
 
 const wrapperDiv = document.createElement("div");
@@ -31,7 +31,7 @@ const button = buttonElement;
 if (localStorage.getItem('cookies') !== 'accepted') {
   button.addEventListener('click', () => {
     cookiePopup.innerHTML = '';
-    localStorage.setItem('cookies', 'accepted')
+    localStorage.setItem('cookies', 'accepted');
   })
 } else {
   cookiePopup.innerHTML = '';
