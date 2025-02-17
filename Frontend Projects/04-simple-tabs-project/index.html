@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en_US">
+  <head>
+    <title>Simple Tabs</title>
+    <meta name="description" content="Simple Tabs Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="nav-bar">
+        <button data-tab="#one" class="tab active">First Tab</button>
+        <button data-tab="#two" class="tab">Second Tab</button>
+        <button data-tab="#three" class="tab">Third Tab</button>
+        <button data-tab="#four" class="tab">Fourth Tab</button>
+      </div>
+
+      <div class="tab-content">
+        <div id="one" data-content class="active">
+        <div class="first-main">
+          <p>
+            Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.
+          </p>
+        </div>
+
+        <div class="second-main">
+          <p>
+            First tab content to be displayed here.
+          </p>
+        </div>
+
+        <div class="third-main">
+          <p>
+            A simple text showing the tab.
+          </p>
+        </div>
+        </div>
+
+        <div id="two" data-content>
+          <div class="first-main">
+              <p>
+                Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.
+              </p>
+            </div>
+
+            <div class="second-main">
+              <p>
+                Second tab content to be displayed here.
+              </p>
+            </div>
+
+            <div class="third-main">
+              <p>
+                A simple text showing the tab.
+              </p>
+            </div>
+        </div>
+
+        <div id="three" data-content>
+          <div class="first-main">
+            <p>
+              Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.
+            </p>
+          </div>
+
+          <div class="second-main">
+            <p>
+              Third tab content to be displayed here.
+            </p>
+          </div>
+
+          <div class="third-main">
+            <p>
+              A simple text showing the tab.
+            </p>
+          </div>
+        </div>
+
+        <div id="four" data-content>
+          <div class="first-main">
+            <p>
+              Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.
+            </p>
+          </div>
+
+          <div class="second-main">
+            <p>
+              Fourth tab content to be displayed here.
+            </p>
+          </div>
+
+          <div class="third-main">
+            <p>
+              A simple text showing the tab.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
