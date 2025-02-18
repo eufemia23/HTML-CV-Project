@@ -1,0 +1,43 @@
+h1 {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.textarea-container {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  display: flex;
+  position: relative;  
+  width: 400px;
+  margin: auto;
+}
+
+textarea {
+  border-radius: 15px;
+  border: solid black 2px;
+  padding: 15px 20px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  width: 400px;
+  resize: none;
+}
+
+.char-length {
+  font-weight: 500;
+  font-size: 14px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.char-length.limit {
+  color: red;
+}
+
+textarea.limit {
+  border: solid rgb(255, 0, 0) 2px;
+  outline: red;;
+  color: red;
+}
