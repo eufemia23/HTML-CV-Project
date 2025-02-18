@@ -7,3 +7,4 @@
 - <a href="https://roadmap.sh/projects/simple-tabs">Simple Tabs Project</a>
 - <a href="https://roadmap.sh/projects/cookie-consent">Cookie Consent</a>
 - <a href="https://roadmap.sh/projects/accordion">Accordion Component</a>
+- <a href="https://roadmap.sh/projects/restricted-textarea">Restricted Textarea</a>
