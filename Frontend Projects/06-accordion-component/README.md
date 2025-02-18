@@ -1,4 +1,4 @@
-# Cookie Consent Popup
+# Accordion Component Project
 <a href="https://roadmap.sh/projects/accordion">Link to the Project</a>
 
 ## Overview 
