@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(60, 43, 37);
+  font-family: 'Noto Sans';
+  color: rgb(218, 125, 167);
+}
+
+.task-tracker-container { 
+  margin: auto;
+  width: max-content;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  width: 420px;
+  padding: 10px;
+  outline: none;
+  border: solid rgb(218, 125, 167) 4px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(60, 43, 37);
+  font-weight: 600;
+}
+
+::placeholder {
+  color: rgb(167, 150, 143);
+  font-weight: 600;
+}
+
+.main-container {
+  width: max-content;
+  position: relative;
+  margin: auto;
+}
+
+.add-button {
+  background-color: rgb(60, 43, 37);
+  border: none;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 4px 8px 0px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-button:hover {
+  background-color: rgb(218, 125, 167);
+}
+
+.add-button:active {
+  background-color: rgb(253, 93, 165);
+  border: none;
+  transition: none;
+}
+
+.arrow-img {
+  width: 20px;
+  height: 20px;
+}
+
+.task {
+  margin: 20px 2px 0px 2px;
+  color: rgb(218, 125, 167);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.check-button {
+  background-color: rgb(60, 43, 37);
+  border: solid white 2px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.check-img {
+  width: 12px;
+  height: 12px;
+  padding: 6px 6px 6px 6px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  left: -4px;
+  bottom: -4px;
+}
+
+.check-img:hover {
+  opacity: 1;
+}
+
+.task-text {
+  display: inline;
+  vertical-align: top;
+}
+
+.bin-img {
+  width: 20px;
+  transition: 0.3s;
+  float: right;  
+  cursor: pointer;
+}
+
+.bin-img:hover {
+  width: 25px;
+}
+
+[data-status="complete"] {
+  border-color: rgb(167, 150, 143);
+  opacity: 1;
+  color:rgb(167, 150, 143);
+  text-decoration: line-through;
+} 
+
+
+
